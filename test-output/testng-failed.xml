@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testcases.TestAlert">
+        <methods>
+          <include name="nested"/>
+          <include name="browserwindow"/>
+          <include name="modal"/>
+          <include name="alert_tab"/>
+          <include name="quit"/>
+          <include name="launch"/>
+          <include name="Screenshot"/>
+          <include name="frames"/>
+          <include name="alert"/>
+        </methods>
+      </class> <!-- com.testcases.TestAlert -->
+      <class name="com.testcases.TestForms">
+        <methods>
+          <include name="endreport"/>
+          <include name="form"/>
+          <include name="launch"/>
+          <include name="Records" invocation-numbers="0"/>
+          <include name="Screenshot"/>
+        </methods>
+      </class> <!-- com.testcases.TestForms -->
+      <class name="com.testcases.TestElements">
+        <methods>
+          <include name="launch"/>
+          <include name="endreport"/>
+          <include name="broken"/>
+          <include name="button"/>
+          <include name="dynprop"/>
+          <include name="radio"/>
+          <include name="check"/>
+          <include name="webtables"/>
+          <include name="links"/>
+          <include name="text"/>
+          <include name="Screenshot"/>
+        </methods>
+      </class> <!-- com.testcases.TestElements -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

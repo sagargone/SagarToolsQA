@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">187,296</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.testcases.TestElements</td><td><a href="#m0">radio</a></td><td rowspan="1">1632833749456</td><td rowspan="1">14127</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.testcases.TestAlert</td><td><a href="#m1">alert</a></td><td rowspan="1">1632833858433</td><td rowspan="1">2189</td></tr><tr class="passedeven"><td><a href="#m2">alert_tab</a></td><td rowspan="1">1632833871507</td><td rowspan="1">18480</td></tr><tr class="passedeven"><td><a href="#m3">browserwindow</a></td><td rowspan="1">1632833860629</td><td rowspan="1">10873</td></tr><tr class="passedeven"><td><a href="#m4">frames</a></td><td rowspan="1">1632833889992</td><td rowspan="1">12260</td></tr><tr class="passedeven"><td><a href="#m5">modal</a></td><td rowspan="1">1632833914610</td><td rowspan="1">10388</td></tr><tr class="passedeven"><td><a href="#m6">nested</a></td><td rowspan="1">1632833902257</td><td rowspan="1">12340</td></tr><tr class="passedodd"><td rowspan="8">com.testcases.TestElements</td><td><a href="#m7">broken</a></td><td rowspan="1">1632833789570</td><td rowspan="1">17294</td></tr><tr class="passedodd"><td><a href="#m8">button</a></td><td rowspan="1">1632833770010</td><td rowspan="1">10511</td></tr><tr class="passedodd"><td><a href="#m9">check</a></td><td rowspan="1">1632833745174</td><td rowspan="1">4274</td></tr><tr class="passedodd"><td><a href="#m10">dynprop</a></td><td rowspan="1">1632833806876</td><td rowspan="1">9851</td></tr><tr class="passedodd"><td><a href="#m11">element</a></td><td rowspan="1">1632833737765</td><td rowspan="1">2521</td></tr><tr class="passedodd"><td><a href="#m12">links</a></td><td rowspan="1">1632833780526</td><td rowspan="1">9039</td></tr><tr class="passedodd"><td><a href="#m13">text</a></td><td rowspan="1">1632833740413</td><td rowspan="1">4751</td></tr><tr class="passedodd"><td><a href="#m14">webtables</a></td><td rowspan="1">1632833763917</td><td rowspan="1">6085</td></tr><tr class="passedeven"><td rowspan="2">com.testcases.TestForms</td><td><a href="#m15">Records</a></td><td rowspan="1">1632833824228</td><td rowspan="1">24388</td></tr><tr class="passedeven"><td><a href="#m16">form</a></td><td rowspan="1">1632833823069</td><td rowspan="1">172</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.testcases.TestElements#radio</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//label[text()=&quot;Ye&quot;]&quot;}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;DESKTOP-GGB8MRA&apos;, ip: &apos;192.168.1.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55796}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6e7f8cc377ce0669e86e29649b292aa0
+*** Element info: {Using=xpath, value=//label[text()=&quot;Ye&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy20.click(Unknown Source)
+	at com.elements.RadioButton.radiobtn(RadioButton.java:22)
+	at com.testcases.TestElements.radio(TestElements.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.testcases.TestAlert#alert</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.testcases.TestAlert#alert_tab</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.testcases.TestAlert#browserwindow</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.testcases.TestAlert#frames</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.testcases.TestAlert#modal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.testcases.TestAlert#nested</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.testcases.TestElements#broken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.testcases.TestElements#button</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.testcases.TestElements#check</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.testcases.TestElements#dynprop</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.testcases.TestElements#element</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.testcases.TestElements#links</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.testcases.TestElements#text</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.testcases.TestElements#webtables</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.testcases.TestForms#Records</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Sagar</td><td>Gone</td><td>sagar@123.com</td><td>1234567899</td><td>Worli,Mumbai</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.testcases.TestForms#form</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
